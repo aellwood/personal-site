@@ -69,14 +69,6 @@
     "footer": {
         "type": "footer",
         "content": "&copy; All rights reserved.",
-        "links": [
-            {
-                "type": "action",
-                "label": "Made with Stackbit.",
-                "url": "https://www.stackbit.com",
-                "style": "link",
-                "new_window": true
-            }
-        ]
+        "links": []
     }
 }

@@ -6,14 +6,13 @@ sections:
     title: 'Hi, I''m Andrew.'
     section_id: hero
     content: >-
-      I'm a professional software developer living in Nottinghamshire, UK. For business or career related enquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/).
+      I'm a professional software developer living in Nottinghamshire, UK.
     actions: []
   - type: section_content
     title: About
     section_id: about
     content: >-
-      My interests include tech; programming; gaming; calisthenics, yoga & fitness;
-      and veganism & animal rights.
+      For business or career related enquiries, you can contact me on [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/). To learn more about me, check out my [About](/about/) page.
     actions: []
   - type: section_posts
     title: Recent Posts
