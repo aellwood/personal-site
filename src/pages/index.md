@@ -18,11 +18,7 @@ sections:
       yourself that people can read on the homepage to get a sense of who you
       are. There also exists a dedicated about page where you can write more
       about yourself for those who are interested.
-    actions:
-      - type: action
-        label: Contact Me
-        url: /contact
-        style: button
+    actions: []
   - type: section_posts
     title: Recent Posts
     section_id: recent-posts
