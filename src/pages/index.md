@@ -6,8 +6,9 @@ sections:
     title: 'Hi, I''m Andrew.'
     section_id: hero
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      I'm a professional software developer living in Nottinghamshire, UK. My
+      interests include tech; programming; gaming; calisthenics, yoga & fitness;
+      and veganism & animal rights.
     actions: []
   - type: section_content
     title: About
