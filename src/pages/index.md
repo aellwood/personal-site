@@ -6,7 +6,7 @@ sections:
     title: 'Hi, I''m Andrew.'
     section_id: hero
     content: >-
-      I'm a professional software developer living in Nottinghamshire, UK.
+      I'm a professional software developer and all-round geek living in Nottinghamshire, UK.
     actions: []
   - type: section_content
     title: About
