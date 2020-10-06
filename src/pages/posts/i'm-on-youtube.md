@@ -1,8 +1,7 @@
 ---
 title: I'm on YouTube
 date: '2020-10-05'
-thumb_img_path: images/6.jpg
-content_img_path: images/6.jpg
+thumb_img_path: images/yt_icon_rgb.png
 excerpt: >-
   I've started a YouTube channel and uploaded my first video.
 template: post

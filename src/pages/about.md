@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle: This is a short page about me and my work.
-img_path: images/A Ellwood face photo.jpg
+img_path: images/profile-photo.jpg
 template: page
 ---
 
