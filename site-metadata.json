@@ -35,7 +35,7 @@
             {
                 "type": "action",
                 "label": "Twitter",
-                "url": "https://twitter.com/verynerdyvegan",
+                "url": "https://twitter.com/thatnerdyvegan",
                 "style": "icon",
                 "icon_class": "fa-twitter",
                 "new_window": true
