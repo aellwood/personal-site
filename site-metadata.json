@@ -25,6 +25,12 @@
             },
             {
                 "type": "action",
+                "label": "Personal Projects",
+                "url": "/personal-projects/",
+                "style": "link"
+            },
+            {
+                "type": "action",
                 "label": "About",
                 "url": "/about/",
                 "style": "link"
