@@ -8,7 +8,7 @@ subtitle: I've migrated from Azure to Netlify and Heroku.
 content_img_path: /images/recipeasy-screenshot.png
 ---
 
-Originally, when I set out to do my [Recipeasy](https://silly-mahavira-4f9bf8.netlify.app/) personal project last year, I settled on using Azure as my cloud-hosting provider. I am a .NET developer by trade so it made sense for me to do the backend in .NET Core and I knew Azure would have good support for this since they're both Microsoft technologies. There was a steep learning curve but it was no different from AWS in that regard, which is what I used in my then job. It took me a while but I got the site (frontend, backend and database) set up in Azure and never thought anything more about it.
+Originally, when I set out to do my [Recipeasy](https://recipeasy.netlify.app/) personal project last year, I settled on using Azure as my cloud-hosting provider. I am a .NET developer by trade so it made sense for me to do the backend in .NET Core and I knew Azure would have good support for this since they're both Microsoft technologies. There was a steep learning curve but it was no different from AWS in that regard, which is what I used in my then job. It took me a while but I got the site (frontend, backend and database) set up in Azure and never thought anything more about it.
 
 #### Frontend
 
