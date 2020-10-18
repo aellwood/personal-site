@@ -31,8 +31,14 @@
             },
             {
                 "type": "action",
-                "label": "About",
-                "url": "/about/",
+                "label": "About Me",
+                "url": "/about-me/",
+                "style": "link"
+            },
+            {
+                "type": "action",
+                "label": "About This Site",
+                "url": "/about-this-site/",
                 "style": "link"
             }
         ],
