@@ -5,7 +5,7 @@ template: page
 
 Over the last year I've been working on a recipe web app. You can find it [here](https://recipeasy.netlify.app/). Just a note that it's still very much a work-in-progress!
 
-If you're that way inclined, there's a rundown below of the tech underpinning it below as well as links to the source code:
+If you're a techie, there's a rundown of the tech underpinning the site as well as links to the source code below:
 
 ###### [Frontend](https://github.com/aellwood/recipeasy)
 
