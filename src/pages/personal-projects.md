@@ -3,6 +3,24 @@ title: Personal Projects
 template: page
 ---
 
-Over the last year I've been working on a recipe / food shopping list web app. You can find it [here](https://recipeasy.netlify.app/). Just an FYI that it's still currently a work-in-progress. :)
+Over the last year I've been working on a recipe web app. You can find it [here](https://recipeasy.netlify.app/). Just a note that it's still very much a work-in-progress!
 
-The [frontend](https://github.com/aellwood/recipeasy) is written in TypeScript and uses the Angular framework. The [backend](https://github.com/aellwood/recipeasy-api) is written in C# and uses .Net Core.
+If you're that way inclined, there's a rundown below of the tech underpinning it below as well as links to the source code:
+
+###### [Frontend](https://github.com/aellwood/recipeasy)
+
+- Angular 10
+- TypeScript
+- SCSS
+- [Auth0](https://www.auth0.com) integrated for authorisation
+- Hosted on [Netlify](https://www.netlify.com)
+
+###### [Backend](https://github.com/aellwood/recipeasy-api)
+
+- .NET Core 3.1
+- C# 8
+- Entity framework
+- PostgreSQL
+- Swagger
+- Docker
+- Hosted on [Heroku](https://www.heroku.com)
