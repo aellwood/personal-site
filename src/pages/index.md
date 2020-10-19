@@ -20,7 +20,7 @@ sections:
       - label: lorem-ipsum
         url: lorem-ipsum
         style: button
-        icon_class: lorem-ipsum
+        icon_class: About Me
         new_window: false
         type: action
   - type: section_posts
