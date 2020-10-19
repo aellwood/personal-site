@@ -18,7 +18,7 @@ sections:
       more about me, check out my [About Me](/about-me/) page.
     actions:
       - label: lorem-ipsum
-        url: lorem-ipsum
+        url: /about-me
         style: button
         icon_class: About Me
         new_window: false
