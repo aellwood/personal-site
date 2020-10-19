@@ -16,7 +16,13 @@ sections:
       For business or career related enquiries, you can contact me on
       [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/). To learn
       more about me, check out my [About Me](/about-me/) page.
-    actions: []
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        icon_class: lorem-ipsum
+        new_window: false
+        type: action
   - type: section_posts
     title: Recent Posts
     section_id: recent-posts
