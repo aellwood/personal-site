@@ -8,6 +8,8 @@ subtitle: I've migrated from Azure to Netlify and Heroku.
 content_img_path: /images/recipeasy-screenshot.png
 ---
 
+#### Introduction
+
 Originally, when I set out to do my [Recipeasy](https://recipeasy.netlify.app/) personal project last year, I settled on using Azure as my cloud-hosting provider. I am a .NET developer by trade so it made sense for me to do the backend in .NET Core and I knew Azure would have good support for this since they're both Microsoft technologies. There was a steep learning curve but it was no different from AWS in that regard, which is what I used in my then job. It took me a while but I got the site (frontend, backend and database) set up in Azure and never thought anything more about it.
 
 #### Frontend
@@ -16,7 +18,7 @@ That was until earlier this year when I decided to try using [Netlify](https://w
 
 Now, a SPA is slightly more complex in that you have to specify the build command (`ng build --prod` in this case) and specify the location of the build files (`dist/recipeasy`). A `_redirects` [file](https://github.com/aellwood/recipeasy/blob/master/src/_redirects) is also needed so that Netlify knows to allow your SPA router to handle redirects (otherwise Netlify will serve your user a 404 when they try to change page).
 
-### Backend
+#### Backend
 
 Long story short, I was very impressed with Netlify but there is a downside: you can't use it to host backend or database services. However, I had also heard good things about another cloud provider: [Heroku](https://www.heroku.com/). Disappointingly, they don't mention C# on their site as a supported language but as it turns out, their service revolves around containers. To get my backend hosted, it was as simple as adding a [Dockerfile](https://github.com/aellwood/recipeasy-api/blob/master/Dockerfile) to my .NET Core repo:
 
@@ -79,9 +81,13 @@ jobs:
  
   The final thing necessary was to add my Heroku Api Key to the secrets section of my API repository in GitHub. *Et voilà!* CI/CD deployment pipeline for Heroku. This was again *much* simpler than using Azure.
 
-### Database
+#### Database
 
-The final piece of the puzzle was the database. In Azure, I'd been using a NoSQL option: Azure Storage Tables in an Azure Storage Blob. Thankfully, Heroku supports the addition of a PostgreSQL database add-ons to apps. This required a significant rework to my source code as my existing implementation was quite heavily coupled to the aforementioned NoSQL Azure database. Thankfully, Entity Framework Core made this process relatively straightforward and I was actually able to remove a significant amount of code and complexity in making this change. Though there were some odd things necessary such as this parsing of the connection string provided by Heroku to make it usable by EF:
+The final piece of the puzzle was the database. In Azure, I'd been using a NoSQL option: Azure Storage Tables in an Azure Storage Blob. Thankfully, Heroku supports the addition of a PostgreSQL database add-ons to apps. 
+
+This required a significant rework to my source code as my existing implementation was quite heavily coupled to the aforementioned NoSQL Azure database. Fortunately, Entity Framework Core made this process relatively straightforward and I was actually able to remove a significant amount of code and complexity in making this change. 
+
+Though there were some odd things necessary, like this parsing of the connection string provided by Heroku to make it usable by EF:
 
 ```
 // Use connection string provided at runtime by Heroku.
@@ -101,12 +107,17 @@ var pgPort = pgHostPort.Split(":")[1];
 connStr = $"Server={pgHost};Port={pgPort};User Id={pgUser};Password={pgPass};Database={pgDb}";
 ```
 
-### Conclusion
+#### Conclusion
 
-On the whole, I'm really impressed by both Netlify and Heroku and would recommend them wholeheartedly. They really are vastly superior options for hobbyist projects (and probably a lot of pro projects too, where all the bells and whistles of AWS/Azure/GCP aren't needed anyway!).  It's also worth me pointing out that my usage of Netlify/Heroku as outlined here is completely free and doesn't require you to input card details - winner! I'd only ever had to pay a few pence on Azure each month but it's settling to know whatever happens, I won't be charged. We've all heard the horror stories about [bill shock](https://dev.to/juanmanuelramallo/i-was-billed-for-14k-usd-on-amazon-web-services-17fn) from cloud providers!
+On the whole, I'm really impressed by both Netlify and Heroku and would recommend them wholeheartedly. They really are vastly superior options for hobbyist projects (and probably a lot of pro projects too - where all the bells and whistles of AWS/Azure/GCP aren't needed anyway!).  It's also worth me pointing out that my usage of Netlify/Heroku as outlined here is completely free and doesn't require you to input card details - winner! I'd only ever had to pay a few pence on Azure each month but it's settling to know whatever happens, I won't be charged. We've all heard the horror stories about [bill shock](https://dev.to/juanmanuelramallo/i-was-billed-for-14k-usd-on-amazon-web-services-17fn) from cloud providers!
 
-The good thing (or bad thing, depending on your point of view!) is that as a user there has been no functional change to the site other than the URL to access it. Although I do think the response times for the APIs in particular seem significantly faster. Hopefully I'll have another update soon with some new features and/or polish!
+The good thing (or bad thing, depending on your point of view!) is that as a user there has been no functional change to the site other than the URL to access it. Although I do think the response times for the APIs in particular seem significantly faster. 
 
-
+Anyway, hopefully I'll have another update soon with some new features and/or polish - thanks for reading!
 
 P.S. This site is also hosted on Netlify - more details [here](/about-this-site).
+
+###### Source code links
+
+- [Frontend](https://github.com/aellwood/recipeasy)
+- [Backend](https://github.com/aellwood/recipeasy-api)
