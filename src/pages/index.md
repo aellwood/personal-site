@@ -23,12 +23,6 @@ sections:
         icon_class: About Me
         new_window: false
         type: action
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: link
-        icon_class: lorem-ipsum
-        new_window: false
-        type: action
   - type: section_posts
     title: Recent Posts
     section_id: recent-posts
