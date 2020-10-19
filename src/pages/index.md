@@ -20,7 +20,7 @@ sections:
       - label: About Me
         url: /about-me
         style: button
-        icon_class: About Me
+        icon_class: ''
         new_window: false
         type: action
   - type: section_posts
