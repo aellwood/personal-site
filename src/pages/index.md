@@ -6,13 +6,22 @@ sections:
     title: 'Hi, I''m Andrew.'
     section_id: hero
     content: >-
-      I'm a professional software developer and all-round geek living in Nottinghamshire, UK.
-    actions: []
+      I'm a professional software developer and all-round geek living in
+      Nottinghamshire, UK.
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        icon_class: lorem-ipsum
+        new_window: false
+        type: action
   - type: section_content
     title: About
     section_id: about
     content: >-
-      For business or career related enquiries, you can contact me on [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/). To learn more about me, check out my [About Me](/about-me/) page.
+      For business or career related enquiries, you can contact me on
+      [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/). To learn
+      more about me, check out my [About Me](/about-me/) page.
     actions: []
   - type: section_posts
     title: Recent Posts
