@@ -8,13 +8,7 @@ sections:
     content: >-
       I'm a professional software developer and all-round geek living in
       Nottinghamshire, UK.
-    actions:
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: link
-        icon_class: lorem-ipsum
-        new_window: false
-        type: action
+    actions: []
   - type: section_content
     title: About
     section_id: about
