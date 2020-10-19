@@ -21,7 +21,7 @@ sections:
         url: lorem-ipsum
         style: button
         icon_class: About Me
-        new_window: false
+        new_window: true
         type: action
   - type: section_posts
     title: Recent Posts
