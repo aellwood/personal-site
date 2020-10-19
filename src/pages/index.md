@@ -17,7 +17,7 @@ sections:
       [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/). To learn
       more about me, check out my [About Me](/about-me/) page.
     actions:
-      - label: lorem-ipsum
+      - label: About Me
         url: /about-me
         style: button
         icon_class: About Me
