@@ -1,10 +1,10 @@
 ---
-title: Recipeasy update!
+title: Personal Project update
 date: '2020-10-18'
 thumb_img_path: /images/recipeasy-tomato.png
-excerpt: An update on my personal project.
+excerpt: Recipeasy has moved homes!
 template: post
-subtitle: I've migrated from Azure to Netlify and Heroku.
+subtitle: I've migrated away from Azure...
 content_img_path: /images/recipeasy-screenshot.png
 ---
 
