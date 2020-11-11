@@ -17,8 +17,8 @@ If you're a techie, there's a rundown of the tech underpinning the site as well 
 
 ###### [Backend](https://github.com/aellwood/recipeasy-api)
 
-- .NET Core 3.1
-- C# 8
+- .NET 5.0
+- C# 9.0
 - Entity framework
 - PostgreSQL
 - Swagger
