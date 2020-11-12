@@ -9,8 +9,8 @@ If you're a techie, there's a rundown of the tech underpinning the site as well 
 
 ###### [Frontend](https://github.com/aellwood/recipeasy)
 
-- Angular 10
-- TypeScript
+- Angular 11
+- TypeScript 4.0
 - SCSS
 - [Auth0](https://www.auth0.com) integrated for authorisation
 - Hosted on [Netlify](https://www.netlify.com)
