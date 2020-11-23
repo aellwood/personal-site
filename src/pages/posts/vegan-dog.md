@@ -1,7 +1,7 @@
 ---
 title: Dogs can be vegan?
 date: '2020-11-23'
-thumb_img_path: images/vegan-dog-thumbnail.png
+thumb_img_path: images/vegan-dog-thumbnail-2.png
 excerpt: >-
   New video where I give my account of how my dog has fared after being on a vegan diet for 3 months.
 template: post
