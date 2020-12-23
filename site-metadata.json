@@ -82,7 +82,7 @@
                 "url": "https://www.instagram.com/thatgeekyvegan/",
                 "style": "icon",
                 "icon_class": "fa-instagram",
-                "new_window": false,
+                "new_window": true,
                 "type": "action"
             }
         ]
