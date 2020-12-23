@@ -9,7 +9,7 @@
         "title": "Andrew Ellwood",
         "tagline": "Software Developer",
         "profile_img": "/images/profile-photo.jpg",
-        "background": "light",
+        "background": "dark",
         "has_nav": true,
         "nav_links": [
             {
