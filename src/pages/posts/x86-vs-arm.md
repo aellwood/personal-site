@@ -1,7 +1,7 @@
 ---
-title: x86 vs ARM
+title: Intel Core i3 vs Apple M1 | CPU Performance Test
 date: '2020-12-20'
-thumb_img_path: images/x86-vs-arm.png
+thumb_img_path: images/x86-vs-arm.jpg
 excerpt: >-
   New YouTube video where I benchmark the CPU performance of two 2020 Macbook Air notebooks which look almost identical on the outside but are very different on the inside.
 template: post
