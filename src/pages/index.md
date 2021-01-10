@@ -6,25 +6,25 @@ sections:
     title: 'Hi, I''m Andrew.'
     section_id: hero
     content: >-
-      I'm a professional software developer living in Nottinghamshire, UK.
+      I'm a professional software developer and all-round tech enthusiast living in Nottinghamshire, UK.
     actions: []
   - type: section_content
     title: About
     section_id: about
     content: >-
-      For business or career related enquiries, you can contact me on [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/). 
-      
-      <br><br>
-
-      To learn more about me, check out my [about me](/about-me) page.
-
-      <br><br> 
-      
       I am increasingly interested in content creation and spend a lot of my spare time creating [YouTube](https://www.youtube.com/channel/UClmUNAKtp0lgoWM5kvoYI1A) videos, many of which I have highlighted in my blogs. 
 
       <br><br>
       
       I have also recently started a [Twitch](https://www.twitch.tv/tofunirvana) channel.
+
+      <br><br>
+
+      For business or career related enquiries, you can contact me on [LinkedIn](https://www.linkedin.com/in/andrew-ellwood-15abba57/).
+      
+      <br><br>
+
+      To learn more about me, click the button below.
     actions:
       - label: About Me
         url: /about-me
