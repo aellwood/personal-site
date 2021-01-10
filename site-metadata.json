@@ -48,7 +48,7 @@
             {
                 "type": "action",
                 "label": "Twitter",
-                "url": "https://twitter.com/thatnerdyvegan",
+                "url": "https://twitter.com/tofu_nirvana",
                 "style": "icon",
                 "icon_class": "fa-twitter",
                 "new_window": true
@@ -79,7 +79,7 @@
             },
             {
                 "label": "Instagram",
-                "url": "https://www.instagram.com/thatgeekyvegan/",
+                "url": "https://www.instagram.com/tofunirvana/",
                 "style": "icon",
                 "icon_class": "fa-instagram",
                 "new_window": true,
