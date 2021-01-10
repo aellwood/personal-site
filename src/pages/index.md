@@ -12,7 +12,7 @@ sections:
     title: About
     section_id: about
     content: >-
-      I am increasingly interested in content creation and spend a lot of my spare time creating [YouTube](https://www.youtube.com/channel/UClmUNAKtp0lgoWM5kvoYI1A) videos, many of which I have highlighted in my blogs. 
+      I am increasingly interested in content creation and spend a lot of my spare time creating [YouTube](https://www.youtube.com/channel/UClmUNAKtp0lgoWM5kvoYI1A) videos, many of which I have highlighted in my blog. 
 
       <br><br>
       
