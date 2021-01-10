@@ -84,6 +84,14 @@
                 "icon_class": "fa-instagram",
                 "new_window": true,
                 "type": "action"
+            },
+            {
+                "label": "Twitch",
+                "url": "https://www.twitch.tv/tofunirvana",
+                "style": "icon",
+                "icon_class": "fa-twitch",
+                "new_window": true,
+                "type": "action"
             }
         ]
     },
