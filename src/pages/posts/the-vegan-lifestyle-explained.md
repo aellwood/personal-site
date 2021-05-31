@@ -1,6 +1,6 @@
 ---
 title: The Vegan Lifestyle Explained
-date: '2021-03-17'
+date: '2021-05-31'
 thumb_img_path: images/what-does-it-mean-to-be-vegan.jpg
 excerpt: >-
   New YouTube video that explains... what is a vegan?!?!
