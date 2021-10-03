@@ -60,14 +60,6 @@
                 "style": "icon",
                 "icon_class": "fa-linkedin",
                 "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "YouTube",
-                "url": "https://www.youtube.com/channel/UClmUNAKtp0lgoWM5kvoYI1A",
-                "style": "icon",
-                "icon_class": "fa-youtube",
-                "new_window": true
             }
         ]
     },
